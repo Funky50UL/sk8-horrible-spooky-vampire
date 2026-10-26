@@ -1,0 +1,29 @@
+{
+  "name": "sk8-horrible-spooky-vampire",
+  "version": "1.0.0",
+  "description": "3D gothic neon skateboarding game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Funky50UL/sk8-horrible-spooky-vampire.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Funky50UL/sk8-horrible-spooky-vampire/issues"
+  },
+  "homepage": "https://github.com/Funky50UL/sk8-horrible-spooky-vampire#readme",
+  "dependencies": {
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "vite": "^8.3.5"
+  }
+}

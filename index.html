@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="theme-color" content="#090713">
+  <title>SK8 — Horrible Spooky Vampire</title>
+</head>
+<body>
+  <div id="hud">
+    <div class="logo">SK8 <span>HORRIBLE SPOOKY VAMPIRE</span></div>
+    <div class="stats">
+      <div>СЧЁТ<strong id="score">000000</strong></div>
+      <div>СКОРОСТЬ<strong id="speed">0</strong></div>
+    </div>
+  </div>
+
+  <div id="intro">
+    <div class="eyebrow">MIDNIGHT SESSION · 03:33 AM</div>
+    <h1>RIDE THE<br><em>AFTERLIFE</em></h1>
+    <p>Ночная смена. Проклятый скейт-парк. Ни одного свидетеля.</p>
+    <button id="start">DROP IN</button>
+    <small>A/D или ←/→ — поворот · SPACE — прыжок · SHIFT — ускорение</small>
+  </div>
+
+  <div id="toast"></div>
+
+  <div id="touch">
+    <div>
+      <button data-key="left">◀</button>
+      <button data-key="right">▶</button>
+    </div>
+    <div>
+      <button data-key="brake">▼</button>
+      <button data-key="jump">▲</button>
+      <button data-key="boost">⚡</button>
+    </div>
+  </div>
+  <div id="footer">NO SUNRISE. NO RULES. JUST SKATE.</div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
